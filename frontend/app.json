@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "LiveMart",
+    "slug": "LiveMart",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo.png",
+    "sdkVersion": "40.0.0",
+    "splash": {
+      "image": "./assets/Logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1D0054"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logo.png",
+        "backgroundColor": "#1D0054"
+      },
+      "permissions": ["ACCESS_BACKGROUND_LOCATION"],
+      "package": "com.nitish7134.LiveMart",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [{
+            "scheme": "LiveMart://app"
+          }],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+        
+      ]
+    },
+    "web": {
+      "favicon": "./assets/Logo.png"
+    }
+  }
+}
